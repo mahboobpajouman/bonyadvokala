@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body dir="rtl" class="bg-gray-100 dark:bg-slate-900 dark:text-white dark:shadow-indigo-950">
+    <header class="bg-white">
+      <nav class="border-2 p-2 shadow-dark-mild flex justify-between">
+        <div class="w-full bg-white flex">
+          <div>
+            <a href="bonyadvokala.com"
+              ><img src="https://www.bonyadvokala.com/img/logo-type.svg" alt="" style="width: 82px; height: 32px"
+            /></a>
+          </div>
+          <div class="flex align-items-center ms-5 sm:max-md:hidden">
+            <input
+              type="text"
+              inputmode="search"
+              placeholder=""
+              class="relative border border-solid border-secondary-500 rounded-sm p-1"
+            />
+            <label class="absolute top-4 ms-7 text-gray-400" for="">جستجو...</label>
+            <i class="fa fa-search absolute top-5 ms-2 text-gray-400"></i>
+          </div>
+          <div class="flex items-center justify-between ms-8 sm:max-md:hidden">
+            <ul class="flex items-center justify-content-between">
+              <li class="text-slate-600 p-2 hover:bg-gray-300 hover:rounded-[25px]">
+                <a href="#"
+                  >مشاوره حقوقی<span class="bg-green-200 text-green-500"> ۲۴/۷</span
+                  ><i class="fa fa-angle-down text-slate-600"></i
+                ></a>
+              </li>
+              <li class="text-slate-600 ms-8 p-2 hover:bg-gray-300 hover:rounded-[25px]">
+                <a href="#">جستجوی وکیل پایه یک<i class="fa fa-angle-down text-slate-600"></i></a>
+              </li>
+              <li class="text-slate-600 ms-8 p-2 hover:bg-gray-300 hover:rounded-[25px]">
+                <a href="#"> تنظیم شکایت<i class="fa fa-angle-down text-slate-600"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div
+            style="width: 30px; height: 30px; border-radius: 50%"
+            class="relative border border-1 border-gray-200 top-2 ms-72 md:hidden search__hidden"
+          >
+            <i class="fa fa-search absolute top-1 ms-2 text-gray-400"></i>
+          </div>
+          <div class="flex items-center justify-between ms-auto">
+            <a class="me-5 border-gray-200 border-r-2 border-l-2 border-solid p-2"
+              ><i class="fa fa-phone text-slate-300 font-medium text-lg"></i><span>(021)42818</span></a
+            >
+
+            <button class="btn bg-blue-500 text-white p-1 rounded-md m-2" type="button">ثبت نام/ورود</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- =====================header ended===================== -->
+    <!-- ==========================body start======================== -->
+
+    <div class="container mt-20 mx-auto">
+      <div class="grid grid-cols-2 sm:max-lg:grid-cols-1 gap-6">
+        <div class="p-5 bg-white">
+          <form action="">
+            <h1 class="font-bold text-xl mb-5">تماس با ما</h1>
+            <p class="border-2 p-2 rounded mb-5 bg-yellow-100 text-yellow-700 border-yellow-400">
+              اگر نیاز به مشاوره حقوقی دارید به صفحه مربوطه مراجعه کنید. به سوالات حقوقی شما در فرم تماس با ما ترتیب اثر
+              داده نخواهد شد. <span class="text-blue-700"> مشاوره حقوقی آنلاین رایگان</span>
+            </p>
+            <div>
+              <div class="mb-5">
+                <input
+                  class="w-full border-2 p-2 outline-none bg-slate-100 hover:border-b-blue-800 py-4"
+                  type="text"
+                  placeholder="نام و نام خانوادگی"
+                />
+              </div>
+              <div class="mb-5">
+                <input
+                  class="w-full border-2 p-2 outline-none bg-slate-100 hover:border-b-blue-800 py-4"
+                  type="text"
+                  placeholder="تلفن همراه"
+                />
+              </div>
+              <div class="mb-5">
+                <input
+                  class="w-full border-2 p-2 outline-none bg-slate-100 hover:border-b-blue-800 py-4"
+                  type="text"
+                  placeholder="ادرس ایمیل"
+                />
+              </div>
+              <div class="mb-5">
+                <select
+                  name=""
+                  id=""
+                  class="w-full border-2 p-2 outline-none bg-slate-100 hover:border-b-blue-700 py-4"
+                >
+                  <option value="">واحد مورد نظر</option>
+                  <option value="">مالی</option>
+                  <option value="">شکایات</option>
+                  <option value="">پشتیبانی</option>
+                </select>
+              </div>
+              <div class="mb-5">
+                <textarea
+                  name=""
+                  id=""
+                  placeholder="لطفا به فارسی نوشته شود"
+                  cols="50"
+                  rows="10"
+                  style="height: 60px; border-radius: 8px"
+                  class="shadow-gray-500 border-b-gray-500 border-2 p-2 w-full outline-none bg-slate-100 hover:border-b-blue-800 py-4"
+                ></textarea>
+              </div>
+              <button class="bg-blue-800 font-bold py-2 px-6 text-white rounded">
+                ارسال<i class="fa fa-arrow-left text-white ms-2"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="p-5 bg-white">
+          <div class="mb-5 border-b border-b-slate-200">
+            <h2 class="font-bold mb-5 text-slate-800">آدرس</h2>
+            <p class="mb-5 text-slate-600">تهران، خیابان ولیعصر، بالاتر از فاطمی، کوچه نوروزی، پلاک ۴۷، واحد ۱۰</p>
+          </div>
+          <div class="mb-3 border-b border-b-slate-200">
+            <h2 class="font-bold mb-5 text-slate-800">شماره تماس</h2>
+            <p class="mb-8 text-slate-600">(۰۲۱) ۴۲۸۱۸</p>
+            <h2 class="font-bold mb-5 text-slate-800">آدرس ایمیل</h2>
+            <p class="mb-5 text-slate-600">info@bonyadvokala.com</p>
+          </div>
+          <div class="mb-3">
+            <h2 class="font-bold mb-5 text-slate-800">شبکه‌های اجتماعی</h2>
+            <div dir="ltr" class="mb-3">
+              <i style="font-size: 30px" class="fa fa-telegram text-slate-800 me-2"></i>
+              <i style="font-size: 30px" class="fa fa-facebook-square text-slate-800 me-2"></i>
+
+              <i style="font-size: 30px" class="fa fa-instagram text-slate-800 me-2"></i>
+              <i style="font-size: 30px" class="fa fa-twitter text-slate-800 me-2"></i>
+            </div>
+            <div class="text-center">
+              <p class="text-slate-600 mb-3">
+                کلیه حقوق مادی و معنوی بنیاد وکلا متعلق به گروه نوآوران نیک داده پرداز است.
+              </p>
+              <span class="text-blue-700">قوانین و مقررات استفاده</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------------body end----------------------- -->
+    <!-- -----------------------------------footer start------------------------- -->
+
+    <footer class="mt-64">
+      <div class="border-gray-200 text-gray-200 mx-auto bg-gray-700" style="max-width: 1200px; height: 600px">
+        <div class="column small-12" style="padding-left: 25px; padding-right: 25px">
+          <div class="footer__content mt-15" style="padding: 65px">
+            <div class="xl:flex justify-between">
+              <div class="column large-2 small-12">
+                <strong class="footer__title border-b-2 p-1 border-b-slate-500">برای وکلا</strong>
+                <ul class="leading-10">
+                  <li><a href="">پروفایل وکیل</a></li>
+                  <li><a href="">راهنمای سریع وکیل</a></li>
+                  <li><a href="">تبلیغات حقوقی وکیل</a></li>
+                </ul>
+              </div>
+              <div class="column large-2 small-12">
+                <strong class="footer__title border-b-2 p-1 border-b-slate-500">خدمات</strong>
+                <ul class="leading-10">
+                  <li><a class="py-8" href="">جستجوی وکیل</a></li>
+                  <li><a href="">مشاوره حقوقی تلفنی و آنلاین رایگان</a></li>
+                  <li><a href="">مشاوره حقوقی</a></li>
+                  <li><a href="">مشاوره حقوقی تلفنی</a></li>
+                  <li><a href="">مشاوره حقوقی آنلاین</a></li>
+                  <li><a href="">تنظیم قرارداد</a></li>
+                  <li><a href="">تنظیم اوراق قضایی</a></li>
+                  <li><a href="">تنظیم دادخواست</a></li>
+                  <li><a href="">تنظیم شکواییه</a></li>
+                  <li><a href="">تنظیم لایحه</a></li>
+                  <li><a href="">تنظیم اظهارنامه</a></li>
+                </ul>
+              </div>
+              <div class="column large-2 small-12">
+                <strong class="footer__title border-b-2 p-1 border-b-slate-500">دسترسی‌ها</strong>
+                <ul class="leading-10">
+                  <li><a href="">مجله بنیاد وکلا</a></li>
+                  <li><a href="">وبلاگ</a></li>
+                  <li><a href="">درباره ما</a></li>
+                  <li><a href="">تماس با ما</a></li>
+                  <li><a href="">قوانین و مقررات</a></li>
+                </ul>
+              </div>
+              <div class="column large-2 small-12">
+                <a href="">
+                  <div class="w-80 flex items-center mx-auto p-2 mb-8 text-white bg-green-500 rounded-full">
+                    <img class="w-16 h-16 rounded-full ms-0" src="../assets/img/support.jpg" alt="" />
+                    <div>
+                      <span class="block ms-2">راهنمای دریافت خدمات</span>
+                      <span style="direction: ltr" class="inline-block fw-bolder ms-2">(021)42818</span>
+                    </div>
+                  </div>
+                </a>
+                <div class="my-10 text-center">
+                  <div class="mb-5">
+                    <a href="" class="text-white hover:text-blue-700">دانلود اپلیکیشن بنیاد وکلا</a>
+                  </div>
+                  <a class="" href=""><img class="ms-24" src="../assets/img/cafebazar.svg" alt="" /></a>
+                </div>
+                <div class="footer__icon text-center">
+                  <i class="fa fa-twitter m-2"></i>
+                  <i class="fa fa-instagram m-2"></i>
+                  <i class="fa fa-facebook-square m-2"></i>
+                  <i class="fa fa-telegram m-2"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__logo text-center my-10">
+        <div class="logo mx-auto mb-3 w-16">
+          <a href="https://www.bonyadvokala.com/img/logo.svg"
+            ><img class="mx-auto" src="../assets/img/logo.svg" alt=""
+          /></a>
+        </div>
+        <p>تمام حقوق برای بنیاد وکلا محفوظ است.</p>
+      </div>
+    </footer>
+  </body>
+</html>
